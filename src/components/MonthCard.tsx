@@ -9,12 +9,7 @@ export interface MonthData {
   link: string;
 }
 
-const MonthCard: React.FC<MonthData> = ({
-  month,
-  title,
-  description,
-  image,
-}) => {
+const MonthCard: React.FC<MonthData> = ({ title, description, image }) => {
   const ref = useRef<HTMLDivElement | null>(null);
   const [visible, setVisible] = useState<boolean>(false);
 

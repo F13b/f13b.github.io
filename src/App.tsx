@@ -1,13 +1,8 @@
 import React from "react";
 import Timeline from "./components/Timeline";
 import YearCard from "./components/YearCard";
-import MonthCard, { type MonthData } from "./components/MonthCard";
+import MonthCard from "./components/MonthCard";
 import { timelineData } from "./data/timelineData";
-
-interface YearData {
-  year: number;
-  months: MonthData[];
-}
 
 const App: React.FC = () => {
   return (
