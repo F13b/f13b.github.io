@@ -9,8 +9,7 @@
 3. В разделе **Build and deployment** выбрать **Source: GitHub Actions**.
 4. Дождаться завершения workflow `Deploy to GitHub Pages`.
 
-После успешного деплоя сайт будет доступен по URL из шага `deploy` в Actions.
-
+После успешного деплоя сайт будет доступен по URL из шага `deploy` в Actions (для project-репозитория это `https://<username>.github.io/<repo>/`).
 
 
 ## Локальный запуск
